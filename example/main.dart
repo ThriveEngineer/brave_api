@@ -1,5 +1,4 @@
 import 'package:brave_api/brave_api.dart';
-import 'package:brave_api/search_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

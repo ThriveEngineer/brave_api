@@ -184,4 +184,22 @@ class _WebViewScreenState extends State<WebViewScreen> {
             Center(
               child: widget.loadingIndicator ?? const CircularProgressIndicator(),
             ),
-          if (widget.progressIndicatorBuilder != null
+             if (widget.progressIndicatorBuilder != null)
+            Positioned(
+              top: 0,
+              left: 0,
+              right: 0,
+              child: widget.progressIndicatorBuilder!(context, _progress),
+            )
+          else if (_isLoading)
+            Positioned(
+              top: 0,
+              left: 0,
+              right: 0,
+              child: LinearProgressIndicator(value: _progress),
+            ),
+        ],
+      ),
+    );
+  }
+}
