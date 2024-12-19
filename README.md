@@ -1,7 +1,7 @@
 # Brave Search Flutter
 
 A highly customizable Flutter package that provides a search interface using the Brave Search API. This package offers a rich set of features and customization options for creating a seamless search experience in your Flutter applications.
-
+[pub.dev](https://pub.dev/packages/brave_api)
 ## Features
 
 🔍 **Core Features**
