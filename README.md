@@ -33,7 +33,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  brave_api: ^0.0.1
+  brave_api: ^1.0.1
 ```
 
 Then run:

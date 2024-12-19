@@ -1,6 +1,6 @@
 name: brave_api
 description: "A Package for Flutter that makes it to use the Brave API easy."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/ThriveEngineer/brave_api
 
 environment:
